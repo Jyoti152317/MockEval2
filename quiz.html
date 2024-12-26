@@ -7,7 +7,31 @@
   </head>
   <body>
     <div id="navbar"></div>
+    <div id="quiz-form">
+      <h3>Add quiz question</h3>
+      <form id="form">
+        <div>
+          <label>Title</label>
+          <input id="ques" type="text" placeholder="Enter question" />
+        </div>
+        <div>
+          <label>Option A.</label>
+          <input id="option1" type="text" /><br />
+          <label>Option B.</label>
+          <input id="option2" type="text" /><br />
+          <label>Option C.</label>
+          <input id="option3" type="text" /><br />
+          <label>Option D.</label>
+          <input id="option4" type="text" />
+        </div>
+        <div>
+          <label>Correct Option:</label>
+          <input type="text" />
+        </div>
+        <input type="submit" value="Add Question" />
+      </form>
+    </div>
   </body>
   <script src="./scrips/navbar.js" type="module"></script>
-  <!-- <script src="./scrips/login.js" type="module"></script> -->
+  <script src="./scrips/quiz.js" type="module"></script>
 </html>
