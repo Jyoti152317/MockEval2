@@ -1,1 +1,1 @@
-// export baseurl = "https://road-ringed-drain.glitch.me/";
+export let baseurl = "https://road-ringed-drain.glitch.me/";
